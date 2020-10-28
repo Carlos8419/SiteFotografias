@@ -1,0 +1,115 @@
+body, h1, a, li, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*TOPO*/
+
+.topo{
+    background: #F8F8FF;
+}
+
+h1, h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 2.5em;
+    font-style: oblique;
+    color: 	#808080;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3{
+    
+    font-size: 1.5em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.h3-livre{
+    color: #000;
+    font-size: 30px;
+    font-style: italic;
+    color: #4F4F4F;
+}
+
+/*HEADER*/
+
+.cabecalho{
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.menu a{
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px;
+    color: #4F4F4F;
+}
+
+/*SECTION 1*/
+
+.sec1{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto; 
+}
+
+.sec1 .img1{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+
+/*SECTION 2*/
+
+.sec2{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 0 auto; 
+}
+
+.sec2 .img2{
+    flex: 1 1 400px;
+    margin: 10px;
+}
+
+
+/*RODAPE*/
+
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rede{
+    margin: 20px;
+}
+
+.rede a{
+    font-size: 18px;
+    font-style: italic;
+    margin: 20px;
+    color: #4F4F4F;
+}
